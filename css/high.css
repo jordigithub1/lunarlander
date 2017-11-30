@@ -1,0 +1,184 @@
+body,html{
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background-image: url("../img/espai.png");
+    background-size: 100%; 
+    font-family: 'Arial';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.c {
+	display:block !important
+}
+.a,.b{display:inline-block;width:33.33%;height:100%;float:left;}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+.d{
+    background-color: #000000;
+    background-image: url("../img/lluna.png");
+    background-size: 100%;
+    background-repeat: repeat-x;
+    height:10%;
+    width:100%;
+    position:absolute;
+    bottom:0px
+	}
+
+.elementsmenu {
+    display: block;
+    background-color: grey;
+    font-weight: bold;
+	font-size: 2vw;
+    text-align: center;
+    color: white;
+    float:left;
+    width: 15%;
+    border: 3px grey outset;
+    border-radius: 5px;
+    margin: 0;
+    overflow: hidden;  
+    text-decoration: none;
+}
+
+.elementsmenu:hover, .divemergent li:hover,#rejugar:hover {
+    background-color: black;
+    color:red;
+    border: 5px blue outset;  
+}
+
+.textpanell{
+    font-family: 'Arial', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 5px solid;
+    background-color: black;
+    color: white;
+    padding: 5% 5%;
+}
+
+.divinst{
+	color: navy;
+	position: fixed;
+	width: 60%;
+	padding: 1% 5%;
+	border: 5px #595959 solid;
+	border-radius: 7px;
+	font-size: 3vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	display:none;
+}
+
+.divinst h1{
+    font-family: 'Arial', sans-serif;
+    background-color: dark blue;
+    font-weight: bold;
+	font-size: 5vw;
+    text-align: center;
+    border: 5px darkorchid double;
+    border-radius: 7px;
+    width: 50%;
+    margin: 1% auto;
+    overflow: hidden;  
+}
+
+.divinst li {
+    background-color: darkblue;
+    font-weight: bold;
+	font-size: 1.75vw;
+    text-align: center;
+    border: 5px deepskyblue outset;
+    margin: 1% auto;
+    overflow: hidden; 
+}
+
+.llistaOpcions{
+    display:inline-block;
+    width: 15%;
+}
+
+#cpanel{
+	position: fixed;
+    width: 23%;
+    padding: 1% 2%;
+    top:13%;
+    left: 5%;
+}
+
+
+
+#menu {
+    
+    position:fixed;
+    width:100%;
+    top: 0%;
+    z-index: 2;
+}
+
+#hidem,#showm{display:none}
+
+
+#divopcions{
+    width: 80%;
+}
+
+#divinst{
+	position: fixed;
+    width: 25%;
+    padding: 1% 2%;
+    top:13%;
+    left: 5%;
+    color:white;
+}
+
+#divopcions ul{
+    text-align: center;
+    margin: 0% auto;
+}
+
+#divabout p{
+    font-size: 1.75vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+#parFi{
+    margin: 3%;
+    font-size: 1.6vw;
+}
+
+#rejugar{width: 35%}
+
+
+#nau{text-align:center;position:fixed;top:16%;width:100%;height:20%;z-index:1}
+#nauimg{height:100%;}
+
+
+#about{
+    background-color: darkgray;
+    color: white;
+    float:right;
+    width: 19.5%;
+    border: 5px silver outset;
+}
+
+#about:hover{
+    background-color: black;
+    color: darkgray;
+    float:right;
+    width: 19.5%;
+    border: 5px gray outset;
+}
+	

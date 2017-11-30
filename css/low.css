@@ -1,0 +1,145 @@
+body,html{
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background-image: url("../img/espai.png");
+    background-size: 300%;
+    font-family: 'Arial', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.a {
+	width:100%;height:90px;overflow:hidden;position:fixed;top:0px; z-index:3
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+.b {
+	width:100%;height:100%;overflow:hidden;
+}
+.c {
+	background-image: url("../img/fons2.png");
+     position:fixed;
+     top:0px;
+     bottom:0px;
+     left:0px;
+     right:0px;
+     display:none;
+     z-index:3
+}
+.d {
+    background-color: #000000;
+    background-image: url("../img/lluna.png");
+    background-size: 100%;
+    background-repeat: repeat-x;
+    position:fixed;
+    bottom:0px;
+    height:10%;
+    width:100%
+}
+
+.elementsmenu{
+    display: block;
+    background-color: grey;
+    font-weight: bold;
+	font-size: 6vw;
+    text-align: center;
+    color: white;
+    width: 80%;
+    border: 3px black outset;
+    border-radius: 5px;
+    margin:10% auto;
+    overflow: hidden;   
+    text-decoration:none;
+}
+
+.textpanell{
+    font-family: 'Arial', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    border: 5px solid;
+    background-color: black;
+    color: white;
+    padding: 2% 3%;
+}
+
+
+#nau{text-align:center;position:fixed;top:16%;width:100%;height:20%;z-index:1}
+#nauimg{height:100%}
+
+
+#opcionsimg,#closeimg{
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    width: 25%;
+}
+
+#restartimg{
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    width: 25%;
+}
+
+#cpanel{
+	position: fixed;
+    width: 68%;
+    padding: 1% 2%;
+    top:0%;
+    left: 0%;
+    z-index: 3;
+}
+
+#menu {
+    
+    position:fixed;
+    width:100%;
+    top: 10%;
+}
+
+.divinst{
+    color: navy;
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 1% 4%;
+    z-index: 4;
+    display:none;
+}
+
+.divEmergent h1, .tornarMobil{
+    font-family: 'Arial', sans-serif;
+    background-color: blue;
+    font-weight: bold;
+	font-size: 5vw;
+    text-align: center;
+    color: gold;
+    border: 5px darkblue;
+    border-radius: 6.5px;
+    width: 30%;
+    margin: 5% auto;
+    overflow: hidden;  
+}
+
+.tornarMobil{
+    font-size: 5vw;
+    position: fixed;
+    margin: 0;
+    bottom: 5%;  
+}
+
+#instruccions{
+    font-size: 9vw;
+}
+
